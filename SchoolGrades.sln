@@ -17,7 +17,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolGrades", "SchoolGrade
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "BusinessObjects", "BusinessObjects\BusinessObjects.shproj", "{FC67D93E-C273-48FB-B183-DFA07592452E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolGrades_WPF", "SchoolGrades_WPF\SchoolGrades_WPF.csproj", "{A2AEC84D-09BB-41D9-AA0F-6C9C275CFFAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolGrades_WPF", "SchoolGrades_WPF\SchoolGrades_WPF.csproj", "{A2AEC84D-09BB-41D9-AA0F-6C9C275CFFAD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -89,6 +89,10 @@ Global
 		SharedWinForms\SharedWinForms.projitems*{14583d93-e4dd-4e30-8d6d-194727a795d3}*SharedItemsImports = 5
 		DataLayer\DataLayer.projitems*{2447d414-6ddb-4193-bd6d-fd70165b57be}*SharedItemsImports = 13
 		BusinessLayer\BusinessLayer.projitems*{737a759a-6c1f-4bd7-a682-390c8b018712}*SharedItemsImports = 13
+		BusinessLayer\BusinessLayer.projitems*{a2aec84d-09bb-41d9-aa0f-6c9c275cffad}*SharedItemsImports = 5
+		BusinessObjects\BusinessObjects.projitems*{a2aec84d-09bb-41d9-aa0f-6c9c275cffad}*SharedItemsImports = 5
+		DataLayer\DataLayer.projitems*{a2aec84d-09bb-41d9-aa0f-6c9c275cffad}*SharedItemsImports = 5
+		SharedItems\SharedItems.projitems*{a2aec84d-09bb-41d9-aa0f-6c9c275cffad}*SharedItemsImports = 5
 		SharedItems\SharedItems.projitems*{a5dc5853-0eb8-493e-804d-d596d841aa2d}*SharedItemsImports = 13
 		MpttTreeManagement\MpttTreeManagement.projitems*{aea6904a-a8b6-4602-8946-03df79cbbd30}*SharedItemsImports = 13
 		SharedWinForms\SharedWinForms.projitems*{bdb76e62-3474-4529-b85d-2ebe40c7befb}*SharedItemsImports = 13
