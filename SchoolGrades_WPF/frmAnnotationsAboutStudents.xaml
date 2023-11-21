@@ -30,7 +30,7 @@
             </Button>
         </Grid>
         <Border Grid.Column="1" Grid.Row="1" BorderBrush="DarkGray" Margin="10,11,150,11" BorderThickness="1">
-            <DataGrid x:Name="dgwStudents"  Background="LightGray" FontSize="15" ColumnHeaderHeight="18"></DataGrid>
+            <DataGrid x:Name="dgwStudents"  Background="LightGray" FontSize="15" ColumnHeaderHeight="18" SelectionChanged="dgwStudents_SelectionChanged"></DataGrid>
         </Border>
 
         <Border Grid.Row="2" Margin="10,0,10,10" BorderThickness="1" BorderBrush="DarkGray">
