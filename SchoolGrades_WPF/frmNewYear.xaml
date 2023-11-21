@@ -39,7 +39,7 @@
                         <Label Foreground="DarkBlue" Margin="4,3" Width="96" Height="20" VerticalContentAlignment="Top" FontSize="9">Note</Label>
                     </StackPanel>
                     <StackPanel Orientation="Horizontal">
-                        <ComboBox Background="White" Name="cmbSchoolYearCurrent" Margin="4,3" Width="104" Height="26"/>
+                        <ComboBox Background="White" Name="cmbSchoolYearCurrents" Margin="4,3" Width="104" Height="26"/>
                         <TextBox Background="White" Name="txtYearDescriptionCurrent" Margin="4,3" Width="104" Height="26" ></TextBox>
                         <TextBox Background="White" Name="txtYearNotesCurrent" Margin="4,3" Width="370"></TextBox>
                     </StackPanel>
@@ -118,7 +118,7 @@
                         <TextBlock  FontSize="20" TextWrapping="Wrap" TextAlignment="Center" Padding="9"  Width="90" Height="68" Background="White" Foreground="DarkBlue">Nuova Classe</TextBlock>
                     </Button.Content>
                 </Button>
-                <Button Name="btnStudentNew" Width="94" Height="72" Margin="1, 6" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Click="btnStudentNew_Click">
+                <Button Name="BtnStudentNew" Width="94" Height="72" Margin="1, 6" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Click="btnStudentNew_Click">
                     <Button.Content>
                         <TextBlock  FontSize="20" TextWrapping="Wrap" TextAlignment="Center" Padding="9"  Width="90" Height="68" Background="White" Foreground="DarkBlue">Nuovo Allievo</TextBlock>
                     </Button.Content>
@@ -143,6 +143,6 @@
 
         <Label Grid.Row="3" Foreground="DarkBlue">Allievi da INCLUDERE nella classe successiva</Label>
 
-        <DataGrid Grid.Row="5" Margin="10,0,10,10" Name="DgwStudent" Background="#A0A0A0"></DataGrid>
+        <DataGrid Grid.Row="5" Margin="10,0,10,10" Name="DgwStudents" Background="#A0A0A0"></DataGrid>
     </Grid>
 </Window>
